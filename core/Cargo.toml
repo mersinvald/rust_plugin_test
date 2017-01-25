@@ -1,0 +1,8 @@
+[package]
+name = "core"
+version = "0.1.0"
+authors = ["Mike Lubinets <lubinetsm@yandex.ru>"]
+
+[dependencies]
+plugin_api = { path = "../plugin_api" }
+plugin_pow = { path = "../plugin_pow" }
