@@ -46,10 +46,3 @@ impl PluginRegister for Register {
         );
     }
 }
-
-lazy_static! {
-    static ref REGISTER: () = Register::register();
-}
-
-
-
